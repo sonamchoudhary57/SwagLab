@@ -4,6 +4,7 @@ import baseTestPackage.testBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageObjects.AddToCart;
 import pageObjects.LoginPage;
@@ -12,6 +13,8 @@ import utils.ReadProperties;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class TC002_AddToCart extends testBase {
+
+    @Test
     public void TC002_AddToCart() throws Exception{
 
         AddToCart ac = new AddToCart(driver);
