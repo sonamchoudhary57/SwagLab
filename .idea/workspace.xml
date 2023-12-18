@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31920ff3-218e-45e1-8ed6-000ec43ab2b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basePackage/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ReadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseTestPackage/testBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TC001_LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TC002_AddToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver-win64/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver-win64/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.propeties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2Zhp74wPufGjtIb2wzL7Ion50Md" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TC001_LoginTest.TC001_LoginTest.executor": "Run",
+    "TestNG.TC001_LoginTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sonam/IdeaProjects/SwagLab/src/main/resources",
+    "onboarding.tips.debug.path": "C:/Users/Sonam/IdeaProjects/SwagLab/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonam\IdeaProjects\SwagLab\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonam\IdeaProjects\SwagLab\src\test\resources\config" />
+      <recent name="C:\Users\Sonam\IdeaProjects\SwagLab\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC001_LoginTest">
+    <configuration name="TC001_LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TC001_LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001_LoginTest.TC001_LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TC001_LoginTest" />
+      <option name="METHOD_NAME" value="TC001_LoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC001_LoginTest" />
+        <item itemvalue="TestNG.TC001_LoginTest.TC001_LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31920ff3-218e-45e1-8ed6-000ec43ab2b8" name="Changes" comment="" />
+      <created>1702883998747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702883998747</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
