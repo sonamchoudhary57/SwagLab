@@ -35,6 +35,9 @@ public class AddToCart extends BaseClass {
     @FindBy(name = "back-to-products")
     WebElement btnBacktohome;
 
+    @FindBy(name = "continue")
+    WebElement btnContinue;
+
 
     //Action
 
@@ -65,11 +68,18 @@ public class AddToCart extends BaseClass {
 
     }
 
+    public void clickContinue(){
+
+        btnContinue.click();
+    }
+
     public void clickFinish(){
+
         btnFinish.click();
     }
 
     public void clickBacktohome(){
+
         btnBacktohome.click();
     }
 

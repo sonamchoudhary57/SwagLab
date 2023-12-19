@@ -5,9 +5,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import pageObjects.LoginPage;
 import utils.ReadProperties;
 
@@ -15,7 +13,7 @@ import java.time.Duration;
 
 public class testBase {
    public WebDriver driver;
-    @BeforeClass
+    @BeforeSuite
     public void setup() throws Exception {
 
 
@@ -28,7 +26,7 @@ public class testBase {
 
     }
 
-    @AfterClass
+    @AfterSuite
     public void tearDown()
     {
         driver.quit();

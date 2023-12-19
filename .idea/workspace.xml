@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31920ff3-218e-45e1-8ed6-000ec43ab2b8" name="Changes" comment="first commit">
+    <list default="true" id="31920ff3-218e-45e1-8ed6-000ec43ab2b8" name="Changes" comment="first commit1">
+      <change afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddToCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseTestPackage/testBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTestPackage/testBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TC002_AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TC002_AddToCart.java" afterDir="false" />
     </list>
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,12 +41,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Sonam/IdeaProjects/SwagLab/testing.xml.executor": "Run",
     "TestNG.TC001_LoginTest.TC001_LoginTest.executor": "Run",
     "TestNG.TC001_LoginTest.executor": "Run",
     "TestNG.TC002_AddToCart.TC002_AddToCart.executor": "Run",
+    "TestNG.TC002_AddToCart.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Sonam/IdeaProjects/SwagLab/src/main/resources",
@@ -62,7 +68,7 @@
       <recent name="C:\Users\Sonam\IdeaProjects\SwagLab\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC002_AddToCart.TC002_AddToCart">
+  <component name="RunManager">
     <configuration name="TC001_LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLab" />
       <extension name="coverage">
@@ -98,6 +104,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC002_AddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TC002_AddToCart" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC002_AddToCart.TC002_AddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLab" />
       <extension name="coverage">
@@ -118,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC002_AddToCart" />
         <item itemvalue="TestNG.TC002_AddToCart.TC002_AddToCart" />
         <item itemvalue="TestNG.TC001_LoginTest" />
         <item itemvalue="TestNG.TC001_LoginTest.TC001_LoginTest" />
@@ -141,13 +165,22 @@
       <option name="project" value="LOCAL" />
       <updated>1702892212124</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit1">
+      <option name="closed" value="true" />
+      <created>1702901470358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702901470358</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="first commit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
