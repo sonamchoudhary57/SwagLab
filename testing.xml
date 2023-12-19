@@ -5,8 +5,9 @@
     <test thread-count="5" name="Test">
         <classes>
             <class name="testcases.TC001_LoginTest"/>
-
             <class name="testcases.TC002_AddToCart"/>
+            <class name="testcases.TC003_Logout"/>
+
         </classes>
     </test> <!-- Test -->
 
