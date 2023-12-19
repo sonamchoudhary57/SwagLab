@@ -13,8 +13,8 @@ import utils.ReadProperties;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class TC002_AddToCart extends testBase {
-    @Test(priority = 0)
-    public void TC001_LoginTest() throws Exception {
+    @Test(priority = 0,groups = {"Regression","Master"})
+    public void TC001_LoginTest() {
         LoginPage lp = new LoginPage(driver);
         lp.setTxtUsername(ReadProperties.getValue("username"));
         lp.setTxtPassword(ReadProperties.getValue("password"));
@@ -26,8 +26,8 @@ public class TC002_AddToCart extends testBase {
 
     }
 
-    @Test
-    public void TC002_AddToCart() throws Exception{
+    @Test(groups = {"Sanity", "Master"})
+    public void TC002_AddToCart() {
 
         AddToCart ac = new AddToCart(driver);
         ac.clickAddtocart();
@@ -39,7 +39,7 @@ public class TC002_AddToCart extends testBase {
         ac.clickContinue();
         ac.clickFinish();
         String actualString = driver.findElement(By.xpath("//h2[text()='Thank you for your order!']")).getText();
-        assertTrue(actualString.contains("Thank you for your order!"));
+        assertTrue(actualString.equalsIgnoreCase("Thank you for your order!"));
         ac.clickBacktohome();
 
     }

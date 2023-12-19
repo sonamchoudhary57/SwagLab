@@ -10,8 +10,8 @@ import utils.ReadProperties;
 
 public class TC001_LoginTest extends testBase{
 
-    @Test
-    public void TC001_LoginTest() throws Exception {
+    @Test(groups = {"Regression","Master"})
+    public void TC001_LoginTest() {
         LoginPage lp = new LoginPage(driver);
         lp.setTxtUsername(ReadProperties.getValue("username"));
         lp.setTxtPassword(ReadProperties.getValue("password"));

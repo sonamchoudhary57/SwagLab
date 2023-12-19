@@ -9,24 +9,24 @@ import org.testng.annotations.*;
 import pageObjects.LoginPage;
 import utils.ReadProperties;
 
-import java.time.Duration;
+//import java.time.Duration;
 
 public class testBase {
    public WebDriver driver;
-    @BeforeClass
-    public void setup() throws Exception {
+    @BeforeClass(groups = {"Master","Sanity","Regression"})
+    public void setup() {
 
 
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Sonam\\IdeaProjects\\SwagLab\\src\\test\\resources\\chromedriver-win64\\chromedriver.exe"    );
         driver=new ChromeDriver();
         driver.get(ReadProperties.getValue("url"));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
 
 
     }
 
-    @AfterClass
+    @AfterClass(groups = {"Master","Sanity","Regression"})
     public void tearDown()
     {
         driver.quit();
