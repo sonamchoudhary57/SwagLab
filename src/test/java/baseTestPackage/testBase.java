@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class testBase {
    public WebDriver driver;
-    @BeforeSuite
+    @BeforeClass
     public void setup() throws Exception {
 
 
@@ -26,7 +26,7 @@ public class testBase {
 
     }
 
-    @AfterSuite
+    @AfterClass
     public void tearDown()
     {
         driver.quit();

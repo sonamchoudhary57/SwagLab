@@ -4,7 +4,6 @@ import baseTestPackage.testBase;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.AddToCart;
 import pageObjects.LoginPage;
 import pageObjects.LogoutPage;
 import utils.ReadProperties;
@@ -24,8 +23,8 @@ public class TC003_Logout extends testBase {
 
 
     }
-@Test
-    public void TC003_Logout() throws Exception{
+@Test(priority = 1)
+    public void TC003_Logout() {
          LogoutPage lg = new LogoutPage(driver);
          lg.clickOpenmenu();
          lg.clickLogout();

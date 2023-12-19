@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31920ff3-218e-45e1-8ed6-000ec43ab2b8" name="Changes" comment="Add to cart">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LogoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TC003_Logout.java" afterDir="false" />
+    <list default="true" id="31920ff3-218e-45e1-8ed6-000ec43ab2b8" name="Changes" comment="Logout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LogoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTestPackage/testBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTestPackage/testBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,8 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC003_Logout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TC003_Logout" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC003_Logout" />
         <item itemvalue="TestNG.TC002_AddToCart" />
         <item itemvalue="TestNG.TC002_AddToCart.TC002_AddToCart" />
         <item itemvalue="TestNG.TC001_LoginTest" />
@@ -181,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702963707011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Logout">
+      <option name="closed" value="true" />
+      <created>1702964821233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702964821233</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,7 +214,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="first commit1" />
     <MESSAGE value="Add to cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add to cart" />
+    <MESSAGE value="Logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
